@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
+    title: `Limisvingen realsameie`,
+    author: `Anders Skifte`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://limisvingen.no/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `skifte`,
     },
   },
   plugins: [
