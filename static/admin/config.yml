@@ -3,7 +3,6 @@ backend:
   repo: skifte/limisvingen
   
 media_folder: static/assets
-public_folder: assets
 
 collections:
   - name: blog
