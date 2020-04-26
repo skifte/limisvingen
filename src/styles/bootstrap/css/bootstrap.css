@@ -3447,3 +3447,32 @@ button.close {
     display: none !important;
   }
 }
+
+
+
+/*Theme*/
+
+.sitenav {
+  padding: 1rem 0;
+}
+
+.sitenav 
+  a {
+    margin-right: 1rem;
+  }
+
+  .sitenav a:last-of-type {
+    margin-right:0;
+  }
+
+.btn.btn-secondary {
+  color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.sitenav .btn-secondary.active {
+    background-color: #343a40;
+    border-color: #343a40;
+    font-weight:bold;
+}

@@ -9,24 +9,20 @@ class Layout extends React.Component {
     let header
 
       header = (
-        <nav className="navbar">
-          <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link to="/" activeClassName="active" className="nav-link">
+        <nav className="sitenav">
+         
+            <Link to="/" activeClassName="active" className="btn btn-secondary">
           Hjem
         </Link>
-            </li>
-            <li className="nav-item">
-            <Link to="/blog/" activeClassName="active" className="nav-link">
+            
+            <Link to="/blog/" activeClassName="active" className="btn btn-secondary">
           Artikler
         </Link>
-            </li>
-         <li className="nav-item">
-         <Link to="/om-limisvingen-realsameie/" activeClassName="active" className="nav-link">
+           
+         <Link to="/om-limisvingen-realsameie/" activeClassName="active" className="btn btn-secondary">
           Om sameiet
         </Link>
-         </li>
-          </ul>
+         
         </nav>
       )
 
