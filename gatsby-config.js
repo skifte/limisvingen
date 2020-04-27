@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Limisvingen realsameie`,
     author: `Anders Skifte`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `Hjemmeside for Limisvingen realsameie.`,
     siteUrl: `https://limisvingen.no/`,
     social: {
       twitter: `skifte`,

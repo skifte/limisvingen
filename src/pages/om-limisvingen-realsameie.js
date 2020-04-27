@@ -13,8 +13,15 @@ class AboutPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Om Limisvingen realsameie" />
         <h1>Om Limisvingen realsameie</h1>
-        <p>Sameiet har organisasjonsnummer 822050492 og er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>.</p>
+        <p>Sameiet er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
+        og har organisasjonsnummer 822050492.</p>
         <p>Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
+
+        <h2>Fellesutgifter</h2>
+        <p>Det blir en liten sum å betale per husstand per mnd, som skal dekke brøyting og strøing, vedlikehold og klipping av ugleredet,
+          samt eventuelle uforutsette utgifter.
+        </p>
+        <p><strong>kommer: </strong> Kontonummer, endelig sum og faktura.</p>
 
         <h2>Styret</h2>
         <p>Styret består av:</p>
