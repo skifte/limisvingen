@@ -20,7 +20,7 @@ class Layout extends React.Component {
                   </Link>
               </li>
               <li className="nav-item">
-                <Link to="/blog/" activeClassName="active" className="nav-link">
+                <Link to="/blog/" partiallyActive={true} activeClassName="active" className="nav-link">
                   <span>Artikler</span>
                 </Link>
               </li>
