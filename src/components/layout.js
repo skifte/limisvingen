@@ -5,7 +5,7 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    const blogPath = `${__PATH_PREFIX__}/blog/`
+    const blogPath = `${__PATH_PREFIX__}/artikler/`
     let header
 
     header = (
@@ -20,7 +20,7 @@ class Layout extends React.Component {
                   </Link>
               </li>
               <li className="nav-item">
-                <Link to="/blog/" partiallyActive={true} activeClassName="active" className="nav-link">
+                <Link to="/artikler/" partiallyActive={true} activeClassName="active" className="nav-link">
                   <span>Artikler</span>
                 </Link>
               </li>
