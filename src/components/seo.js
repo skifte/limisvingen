@@ -80,7 +80,6 @@ function SEO({ description, lang, meta, keywords, title }) {
         .concat(meta)}
     >
       <link rel="icon" href={favicon} />
-      <meta property="og:image" content={favicon} />
     </Helmet>
   )
 }

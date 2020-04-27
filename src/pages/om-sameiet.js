@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
         <SEO title="Om sameiet" />
 
         <div className="row">
-          <article className="col-8 full-story">
+          <article className="col-lg-8 full-story">
           <h1>Om Limisvingen realsameie</h1>
         <p class="lead">Sameiet er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
         og har organisasjons&#173;nummer 822050492.</p>
