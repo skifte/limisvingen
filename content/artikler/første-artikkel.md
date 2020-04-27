@@ -8,4 +8,4 @@ Jadda! En artikkel.
 
 Her er et bilde av Limisvingen, sett fra lufta i august 2019:
 
-![Limisvingen sett fra lufta, august 2019.](/static/assets/limisvingen-by-air.jpg)
+![Fra lufta](assets/limisvingen-by-air-2.jpg)
