@@ -1,11 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Button from "../components/button"
+
 
 class Blog extends React.Component {
   render() {
@@ -23,12 +22,8 @@ class Blog extends React.Component {
             return (
               <div key={node.fields.slug}>
                 <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
                 >
-                  <Link
-                    style={{ boxShadow: `none` }}
+                  <Link                  
                     to={`blog${node.fields.slug}`}
                   >
                     {title}

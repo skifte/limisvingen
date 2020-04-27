@@ -8,39 +8,48 @@ class Layout extends React.Component {
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
 
-      header = (
-        <nav className="sitenav">
-         
-            <Link to="/" activeClassName="active" className="btn btn-secondary">
-          Hjem
-        </Link>
-            
-            <Link to="/blog/" activeClassName="active" className="btn btn-secondary">
-          Artikler
-        </Link>
-           
-         <Link to="/om-limisvingen-realsameie/" activeClassName="active" className="btn btn-secondary">
-          Om sameiet
-        </Link>
-         
-        </nav>
-      )
+    header = (
+      <div className="site-header bg-dark">
+        <div className="container">
+          <nav className="site-nav">
+            <ul className="nav">
+
+              <li className="nav-item">
+                <Link to="/" activeClassName="active" className="nav-link">Hjem</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/blog/" activeClassName="active" className="nav-link">
+                  Artikler
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/om-limisvingen-realsameie/" activeClassName="active" className="nav-link">
+                  Om sameiet
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    )
 
 
     return (
-     <div>
+      <div>
+
+        <header>{header}</header>
         <div className="container">
-          <header>{header}</header>
           <main>{children}</main>
         </div>
         <footer>
           <div className="container">
-          © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
           </div>
         </footer>
-        </div>
+      </div>
     )
   }
 }
