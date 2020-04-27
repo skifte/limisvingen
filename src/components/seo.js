@@ -42,11 +42,15 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: title + ' | ' + site.siteMetadata.title,
         },
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: `src/images/favicon.png`,
         },
         {
           property: `og:type`,
