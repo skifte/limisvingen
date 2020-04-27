@@ -18,18 +18,19 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <article className="full-story">
         <h1>{post.frontmatter.title}</h1>
         <p
         >
           {post.frontmatter.date}
         </p>
         <MDXRenderer>{post.body}</MDXRenderer>
+        </article>
         <hr
         />
        
 
-        <ul
-        >
+        <ul>
           <li>
             {previous && (
               <Link to={`blog${previous.fields.slug}`} rel="prev">

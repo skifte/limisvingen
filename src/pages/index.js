@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           keywords={[`Limisvingen`, `sameie`]}
         />
 
-        <div className="jumbotron">
+        <div className="jumbotron jumbo-limi">
         <h1>
          Hei, Folkens{" "}
           <span role="img" aria-label="wave emoji">
@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
         <hr/>
         <p>Lurer du på noe om sameiet og hvem som sitter i styret?</p>
         <p>
-          <Link className="btn btn-primary btn-lg" to="/om-limisvingen-realsameie/">
+          <Link className="btn btn-primary btn-lg" to="/om-sameiet/">
           Om sameiet
         </Link>
         </p>

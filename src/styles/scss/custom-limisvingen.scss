@@ -1,12 +1,82 @@
-.site-header {
-
-}
 
 .site-nav {
     padding: 10px 0;
     a {
         color: #fff;
-        text-decoration: none;
-        
+        span {
+            border-bottom: 2px solid transparent;
+            display: block;
+        }
+        //text-decoration: none;
+        &.active {
+            span {
+                border-bottom: 2px solid #fff;
+            }
+            
+        }
     }
 }
+
+h1, 
+h2 {
+
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+
+.site-footer {
+    margin-top:2rem;
+    padding-top:1.5rem;
+}
+
+body {
+    background-color: $gray-100;
+}
+.main {
+    background-color: #fff;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+    // hvit 100% bredde, fjerne margin mot topp
+    // la body være grå
+}
+
+// article
+
+.lead {
+    font-weight: 400; // overstyring
+}
+
+.full-story,
+.stories {
+    padding-top:2rem;
+}
+
+.full-story {
+    hr {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.teaser-story {
+    a {
+        color: $body-color;
+    }
+}
+
+
+
+article {
+    h2 {
+        font-size: $h3-font-size;
+    }
+    h3 {
+        font-size: $h4-font-size;
+    }
+    a {text-decoration: underline;}
+}
+

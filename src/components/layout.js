@@ -15,16 +15,18 @@ class Layout extends React.Component {
             <ul className="nav">
 
               <li className="nav-item">
-                <Link to="/" activeClassName="active" className="nav-link">Hjem</Link>
+                <Link to="/" activeClassName="active" className="nav-link">
+                  <span>Hjem</span>
+                  </Link>
               </li>
               <li className="nav-item">
                 <Link to="/blog/" activeClassName="active" className="nav-link">
-                  Artikler
+                  <span>Artikler</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/om-limisvingen-realsameie/" activeClassName="active" className="nav-link">
-                  Om sameiet
+                <Link to="/om-sameiet/" activeClassName="active" className="nav-link">
+                  <span>Om sameiet</span>
                 </Link>
               </li>
             </ul>
@@ -39,10 +41,15 @@ class Layout extends React.Component {
       <div>
 
         <header>{header}</header>
-        <div className="container">
-          <main>{children}</main>
-        </div>
-        <footer>
+
+        
+          <main className="main">
+          <div className="container">
+            {children}
+            </div>
+            </main>
+        
+        <footer className="site-footer">
           <div className="container">
             © {new Date().getFullYear()}, Built with
           {` `}

@@ -16,13 +16,12 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Alle artikler" />
        
-        <div>
+        <div className="stories">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div key={node.fields.slug}>
-                <h3
-                >
+              <article key={node.fields.slug} className="teaser-story">
+                <h3>
                   <Link                  
                     to={`blog${node.fields.slug}`}
                   >
@@ -35,7 +34,7 @@ class Blog extends React.Component {
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
-              </div>
+              </article>
             )
           })}
         </div>

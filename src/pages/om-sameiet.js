@@ -11,12 +11,15 @@ class AboutPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Om Limisvingen realsameie" />
-        <h1>Om Limisvingen realsameie</h1>
-        <p>Sameiet er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
-        og har organisasjonsnummer 822050492.</p>
-        <p>Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
+        <SEO title="Om sameiet" />
 
+        <div className="row">
+          <article className="col-8 full-story">
+          <h1>Om Limisvingen realsameie</h1>
+        <p class="lead">Sameiet er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
+        og har organisasjons&#173;nummer 822050492.</p>
+        <p class="lead">Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
+<hr/>
         <h2>Fellesutgifter</h2>
         <p>Det blir en liten sum å betale per husstand per mnd, som skal dekke brøyting og strøing, vedlikehold og klipping av ugleredet,
           samt eventuelle uforutsette utgifter.
@@ -32,6 +35,9 @@ class AboutPage extends React.Component {
           <li>Andre Ødefjeld</li>
           <li>Anders Skifte</li>
         </ul>
+          </article>
+        </div>
+        
       </Layout>
     )
   }
