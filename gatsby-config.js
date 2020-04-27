@@ -70,13 +70,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Limisvingen sameie`,
+        short_name: `Limi sameie`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        // edit below
+        theme_color: `#343a40`,
+        display: `browser`,
+        // https://developers.google.com/web/fundamentals/web-app-manifest/#display
         icon: `src/images/favicon.png`,
       },
     },
