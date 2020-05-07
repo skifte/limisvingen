@@ -10,9 +10,7 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`, 
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -31,7 +29,15 @@ module.exports = {
         name: `artikler`,
       },
     },
-    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/gfx`,
+        name: 'gfx',
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, 
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -58,14 +64,9 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-vscode`,
-          },
-          {
             resolve: `gatsby-remark-copy-linked-files`,
           },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
+          
         ],
       },
     },
