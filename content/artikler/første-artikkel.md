@@ -2,6 +2,7 @@
 path: path-til-artikkel
 date: 2020-04-27T20:25:39.636Z
 title: Første artikkel
+featuredimage: /images/limisvingen-by-air-3.jpg
 description: Beskrivelse av første artikkel
 ---
 Jadda! En artikkel.
