@@ -16,6 +16,11 @@ class Artikler extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Alle artikler" />
        
+       <div className="row">
+        <div className="col-lg-12">
+
+
+       
         <div className="stories">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
@@ -38,7 +43,8 @@ class Artikler extends React.Component {
             )
           })}
         </div>
-        
+        </div>
+       </div>
       </Layout>
     )
   }
