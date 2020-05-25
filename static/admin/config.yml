@@ -1,9 +1,14 @@
 backend:
   name: github
   repo: skifte/limisvingen
-  
-media_folder: static/assets
-public_folder: /assets
+
+# https://www.netlifycms.org/docs/configuration-options/
+publish_mode: editorial_workflow #Lager ny branch og pull request i stedet for commit og push til master (på save draft).
+site_url: https://limisvingen.no
+locale: 'no'
+
+media_folder: static/images
+public_folder: "/images" #hvor bilder havner i bygd site. Default er /media_folder
 
 collections:
   - name: artikkel

@@ -10,18 +10,16 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`, 
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-source-filesystem`,
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/static/images`,
+        name: 'images',
       },
     },
     {
@@ -32,21 +30,31 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
+        path: `${__dirname}/src/gfx`,
+        name: 'gfx',
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, 
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: [".mdx", ".md"],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              maxWidth: 590,
+              name: 'images',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048,
             },
           },
           {
@@ -56,14 +64,9 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-vscode`,
-          },
-          {
             resolve: `gatsby-remark-copy-linked-files`,
           },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
+          
         ],
       },
     },
@@ -84,7 +87,7 @@ module.exports = {
         theme_color: `#343a40`,
         display: `browser`,
         // https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        icon: `src/images/favicon.png`,
+        icon: `src/gfx/favicon.png`,
       },
     },
   ],
