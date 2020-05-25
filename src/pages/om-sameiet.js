@@ -15,18 +15,17 @@ class AboutPage extends React.Component {
 
         <div className="row">
           <article className="col-lg-8 full-story">
-          <h1>Om Limisvingen realsameie</h1>
-        <p class="lead">Sameiet er registrert i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
+          <h1>Om Limi realsameie</h1>
+        <p>Sameiet er registrert som <em>Limi realsameie for G/BNR 56/189</em> i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
         og har organisasjons&#173;nummer 822050492.</p>
-        <p class="lead">Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
-<hr/>
-        <h2>Fellesutgifter</h2>
-        <p>Det blir en liten sum å betale per husstand per mnd, som skal dekke brøyting og strøing, vedlikehold og klipping av ugleredet,
-          samt eventuelle uforutsette utgifter.
-        </p>
-        <p><strong>kommer: </strong> Kontonummer, endelig sum og faktura.</p>
 
-        <h2>Styret</h2>
+        <p>Bankkonto er 2635.18.99629.</p>
+        <p>Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
+<hr/>
+      
+        
+
+        <h2>Styret</h2>       
         <p>Styret består av:</p>
         <ul>
           <li>Truls Magnus Juul (styreleder)</li>
@@ -35,6 +34,8 @@ class AboutPage extends React.Component {
           <li>Andre Ødefjeld</li>
           <li>Anders Skifte</li>
         </ul>
+        <h3>Kontakt</h3>
+        <p>Styret kan kontaktes på styret@limisvingen.no.</p>
           </article>
         </div>
         
