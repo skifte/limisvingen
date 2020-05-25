@@ -1,12 +1,12 @@
 ---
 path: path-til-artikkel
 date: 2020-04-27T20:25:39.636Z
-title: Første artikkel
+title: Agurknytt fra Limisvingen
 featuredimage: /images/limisvingen-by-air-3.jpg
 description: Beskrivelse av første artikkel
 ---
-Jadda! En artikkel.
+Dette er en artikkel. Det kan komme flere slike.
 
-Her er et bilde av Limisvingen, sett fra lufta i august 2019:
+I mellomtiden kan du kose deg med et bilde av Limisvingen, sett fra lufta i august 2019:
 
 ![Limisvingen sett fra lufta](/images/limisvingen-by-air-3.jpg)
