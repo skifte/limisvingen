@@ -25,6 +25,11 @@ class Layout extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/fellesutgifter/" partiallyActive={true} activeClassName="active" className="nav-link">
+                  <span>Fellesutgifter</span>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/om-sameiet/" activeClassName="active" className="nav-link">
                   <span>Om sameiet</span>
                 </Link>
@@ -51,9 +56,8 @@ class Layout extends React.Component {
         
         <footer className="site-footer">
           <div className="container">
-            © {new Date().getFullYear()}, Built with
-          {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p><em>Limi realsameie for G/BNR 56/189. Org.nr 822050492.<br/>
+            E-post: styret@limisvingen.no.</em></p>
           </div>
         </footer>
       </div>
