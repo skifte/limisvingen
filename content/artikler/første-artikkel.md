@@ -3,7 +3,7 @@ path: path-til-artikkel
 date: 2020-04-27T20:25:39.636Z
 title: Agurknytt fra Limisvingen
 featuredimage: /images/limisvingen-by-air-3.jpg
-description: Beskrivelse av første artikkel
+description: En kjempestory.
 ---
 Dette er en artikkel. Det kan komme flere slike.
 
