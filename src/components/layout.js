@@ -11,10 +11,6 @@ class Layout extends React.Component {
     header = (
       <div className="site-header bg-dark">
         <div className="container">
-
-        <div className="row">
-        <div className="col-lg-12">
-
           <nav className="site-nav">
             <ul className="nav">
 
@@ -41,9 +37,6 @@ class Layout extends React.Component {
             </ul>
           </nav>
         </div>
-
-      </div>
-      </div>
 
       </div>
     )

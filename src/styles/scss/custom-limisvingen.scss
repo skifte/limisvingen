@@ -16,6 +16,13 @@
             
         }
     }
+
+    li {
+        .nav-link {
+            padding: .5rem;
+        }
+    }
+
     li:first-child {
         .nav-link {
             padding-left:0;
