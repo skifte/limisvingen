@@ -20,16 +20,14 @@ class expensesPage extends React.Component {
             Vi forsøker med 250 kr per mnd per tomt, så ser vi om det kan justeres
             ned etter hvert. Det er ikke mål om å gå i overskudd.  
           </p>
-
-          <h2>Nytt kontonummer</h2>
-          <p>Oppdatering 4 juni 2020:<br/> <strong>Sameiets opprinnelige bankkonto ble slettet på grunn av inaktivitet</strong>. Vi får opprettet en ny en, og legger deretter kontonummeret her.</p>
-          {/* whenClicked is a property not an event, per se. 
-          <p>Innbetaling, av 250 kroner, gjøres til <strong>kontonummer 2635.18.99629</strong> (Limi realsameie) den 1. hver måned. Merk betalingen med <em>tomtenummer</em>. 
+         
+        
+          <p>Innbetaling, av 250 kroner, gjøres til <strong>kontonummer 2635.19.60697</strong> (Limi realsameie) den 1. hver måned. Merk betalingen med <em>tomtenummer</em>. 
           Sett gjerne opp automatisk trekk, så går dette av seg selv.
           </p> 
-            <p>Om du vil, kan du gjerne bruke <a href="/files/faktura-250-limi-realsameie.pdf">denne fakturaen</a>. Se bort fra forfallsdato, som er vilkårlig satt.
+            <p>Om du vil, kan du gjerne bruke <a href="/files/faktura-felleskostnader-limi-realsameie.pdf">denne fakturaen</a>. Se bort fra forfallsdato, som er vilkårlig satt.
             Det sendes <em>ikke</em> ut faktura hver måned.</p>
-*/}
+
         <h2>Hva går pengene til?</h2>
 
           <p>Fellesutgiftene er ment å dekke følgende:</p>
