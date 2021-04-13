@@ -22,7 +22,7 @@ class expensesPage extends React.Component {
           </p>
          
         
-          <p>Innbetaling, av 250 kroner, gjøres til <strong>kontonummer 2635.19.60697</strong> (Limi realsameie) den 1. hver måned. Merk betalingen med <em>tomtenummer</em>. 
+          <p>Innbetaling, av 250 kroner, gjøres til <strong>kontonummer 2635.19.60697</strong> (Limi realsameie) den 1. hver måned. Merk betalingen med husnummer. 
           Sett gjerne opp automatisk trekk, så går dette av seg selv.
           </p> 
             <p>Om du vil, kan du gjerne bruke <a href="/files/faktura-felleskostnader-limi-realsameie.pdf">denne fakturaen</a>. Se bort fra forfallsdato, som er vilkårlig satt.
