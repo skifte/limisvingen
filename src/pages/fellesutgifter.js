@@ -17,7 +17,7 @@ class expensesPage extends React.Component {
           <article className="col-lg-8 full-story">
           <h1>Fellesutgifter</h1>
           <p>Sameiet har delt ansvar for vei og lekeplass. Dermed får vi også fellesutgifter. 
-            Vi forsøker med 250 kr per mnd per tomt, så ser vi om det kan justeres
+            Vi forsøker med 250 kr per mnd per hustand som eier egen bolig, så ser vi om det kan justeres
             ned etter hvert. Det er ikke mål om å gå i overskudd.  
           </p>
          
@@ -35,15 +35,9 @@ class expensesPage extends React.Component {
               <li>Brøyting og strøing av vei</li>
               <li>Strøm til gatelys</li>
               <li>Vedlikehold og klipping av lekeplassen (Ugleredet)</li>
-              <li>Eventuelle uforutsette kostnader</li>              
+              <li>Andre kostnader i forbindelse med vedlikehold o.l.</li>              
               </ul>
-          
-          <p>I tillegg har styret hatt utlegg for brøyting i sesongen 2018/2019, som også dekkes inn over felleskostnadene. Noe av dette faktureres JM for, som på
-            daværende tidspunkt fortsatt eide flere av tomtene. 
-          </p>
-
-          <p>Dersom kommunen overtar ansvar for veien, bortfaller brøytekostnadene. Det utgjør nær halvparten av fellesutgiftene.</p>
-          
+         
           </article>
         </div>
         
