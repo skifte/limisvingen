@@ -17,11 +17,8 @@ class Artikler extends React.Component {
         <SEO title="Alle artikler" />
        
        <div className="row">
-        <div className="col-lg-12">
-
-
        
-        <div className="stories">
+        <div className="stories col-lg-8">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -42,7 +39,6 @@ class Artikler extends React.Component {
               </article>
             )
           })}
-        </div>
         </div>
        </div>
       </Layout>

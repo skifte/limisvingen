@@ -15,7 +15,8 @@ class ArtikkelTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article className="full-story">
+        <div class="row">
+        <article className="full-story col-lg-8">
         <h1>{post.frontmatter.title}</h1>
         <p
         >
@@ -23,6 +24,7 @@ class ArtikkelTemplate extends React.Component {
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
+        </div>
         <hr
         />
        
