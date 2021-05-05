@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
         <p>Sameiet er registrert som <em>Limi realsameie for G/BNR 56/189</em> i <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=822050492">Brønnøysundregistrene</a>,
         og har organisasjons&#173;nummer 822050492.</p>
 
-        <p>Bankkonto er 2635.18.99629.</p>
+        <p>Bankkonto er 2635.19.60697.</p>
         <p>Vi har en egen gruppe på <a href="https://www.facebook.com/groups/401821740391426">Facebook</a>.</p>
 <hr/>
       
