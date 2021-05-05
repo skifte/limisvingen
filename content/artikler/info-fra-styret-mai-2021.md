@@ -54,9 +54,11 @@ Vi håper på godt oppmøte, minst en person fra hver husstand 😊
 
 ---
 
-PS! Styret setter pris på alle innspill og forslag. Huk tak i en av oss i styret, send mail til styret@limisvingen.no eller skriv på Facebook-gruppa 👍 
+##Forslag mottas med takk
 
-PPS! Som følge av Covid-19 har vi dessverre ikke hatt mulighet til å sette opp et allmøte. På sikt er det ønskelig at vi gjennomfører årlige møter for alle.
+Styret setter pris på alle innspill og forslag. Huk tak i en av oss i styret, send mail til styret@limisvingen.no eller skriv på Facebook-gruppa 👍 
+
+PS! Som følge av Covid-19 har vi dessverre ikke hatt mulighet til å sette opp et allmøte. På sikt er det ønskelig at vi gjennomfører årlige møter for alle.
 
 
 
