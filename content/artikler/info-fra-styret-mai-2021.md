@@ -30,12 +30,12 @@ Les mer om stativ og kasser her:
 
 Pris for to stativer inkludert postkasser med lås blir totalt ca. 31.000,-.
 
-Styret foreslår at det meste av dette dekkes av våre felles midler, som kommer inn gjennom felleskostnadene, men at de som trenger mer enn én postkasse får en egenandel. Det er da for eksempel snakk om boenheter med utleiedel. Styret antar at det er fornuftig å beregne to postkasser per enebolig med utleiedel og for tomannsboligen på felt sør. 
+Styret foreslår at det meste av dette dekkes av våre felles midler, som kommer inn gjennom felleskostnadene, men at de som trenger mer enn én postkasse får en egenandel. Det er da for eksempel snakk om boliger med utleiedel. Styret antar at det er fornuftig å beregne to postkasser per enebolig med utleiedel og for tomannsboligen på felt sør. 
 
 Si fra til styret om du ikke har utleiedel, men likevel ønsker flere postkasser.
 
 **Styret foreslår følgende betalingsmodell:** 
-- Én postkasse og tilhørende andel av stativ dekkes over fellesen for alle som betaler 250 kroner i fellesutgifter i dag. Er behovet kun én postkasse betaler du altså da ikke noe ekstra.
+- Én postkasse og tilhørende andel av stativ dekkes over fellesen for alle boenheter som betaler 250 kroner i fellesutgifter per måned i dag. Er behovet kun én postkasse betaler du altså da ikke noe ekstra.
 - Egenandel per øvrige postkasse foreslås til 1400,- (gitt at vi går for to stativer med plass til 12 postkasser på hver).
 
 Styret tror like stativer og postkasser vil gjøre området vårt finere og ryddigere. Vi håper alle synes dette er en god idé.
