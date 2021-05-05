@@ -34,13 +34,18 @@ Styret foreslår at det meste av dette dekkes av våre felles midler, som kommer
 
 Si fra til styret om du ikke har utleiedel, men likevel ønsker flere postkasser.
 
-**Styret foreslår følgende betalingsmodell:** 
+**Styret foreslår følgende betalingsmodell:**
 - Én postkasse og tilhørende andel av stativ dekkes over fellesen for alle boenheter som betaler 250 kroner i fellesutgifter per måned i dag. Er behovet kun én postkasse betaler du altså da ikke noe ekstra.
 - Egenandel per øvrige postkasse foreslås til 1400,- (gitt at vi går for to stativer med plass til 12 postkasser på hver).
 
 Styret tror like stativer og postkasser vil gjøre området vårt finere og ryddigere. Vi håper alle synes dette er en god idé.
 
-##Ny dugnad tirsdag 25 mai
+###Innvendiger eller spørsmål?
+Ta kontakt med styret dersom du har spørsmål, innvendinger eller innspill til forslaget om stativer og postkasser.
+
+**Stativer og postkasser bestilles dersom ingen innvendinger mottas innen 20 mai.**
+
+##Ny dugnad tirsdag 25 mai kl 19:00
 Det ble den 17. april gjennomført en dugnad på området, hvor det ble felt trær. Trærne blir hentet, men det gjenstår likevel en god del rydding på fellesområdet.  
 
 Ny dugnad vil være tirsdag 25. mai. 
