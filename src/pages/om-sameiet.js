@@ -28,9 +28,9 @@ class AboutPage extends React.Component {
         <h2>Styret</h2>       
         <p>Styret består av:</p>
         <ul>
-          <li>Truls Magnus Juul (styreleder)</li>
-          <li>Kai Roger Habberstad</li>
-          <li>Kenneth Heisholt</li>
+          <li>Lene Killingtveit (styreleder)</li>
+          <li>Milica Corovic</li>
+          <li>Truls Magnus Juul </li>
           <li>Andre Ødefjeld</li>
           <li>Anders Skifte</li>
         </ul>
