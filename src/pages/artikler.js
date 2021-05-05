@@ -28,7 +28,7 @@ class Artikler extends React.Component {
               <article key={node.fields.slug} className="teaser-story">
                 <h3>
                   <Link                  
-                    to={`artikler${node.fields.slug}`}
+                    to={`/artikler${node.fields.slug}`}
                   >
                     {title}
                   </Link>

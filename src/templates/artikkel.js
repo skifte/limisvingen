@@ -30,14 +30,14 @@ class ArtikkelTemplate extends React.Component {
         <ul>
           <li>
             {previous && (
-              <Link to={`artikler${previous.fields.slug}`} rel="prev">
+              <Link to={`/artikler${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={`artikler${next.fields.slug}`} rel="next">
+              <Link to={`/artikler${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
